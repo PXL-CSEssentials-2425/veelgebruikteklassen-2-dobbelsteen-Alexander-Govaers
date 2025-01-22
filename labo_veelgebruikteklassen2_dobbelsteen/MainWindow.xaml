@@ -1,0 +1,16 @@
+﻿<Window x:Class="labo_veelgebruikteklassen2_dobbelsteen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:labo_veelgebruikteklassen2_dobbelsteen"
+        mc:Ignorable="d"
+        Title="Dobbelstenen werpen tot 6" Height="450" Width="800" Background="#FFE69C9C">
+    <Grid>
+        <TextBox x:Name="resultTextbox" HorizontalAlignment="Left" Margin="58,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="466" Height="341"/>
+        <Button x:Name="startButton" HorizontalAlignment="Left" Margin="559,125,0,0" VerticalAlignment="Top" Height="50" Width="110" Background="#FFE0B4B4" Content="Start" FontWeight="Bold" Foreground="#FF9F5151" Click="startButton_Click"/>
+        <Button x:Name="retryButton" HorizontalAlignment="Left" Margin="559,212,0,0" VerticalAlignment="Top" Height="50" Width="110" Background="#FFE0B4B4" Content="Opnieuw" FontWeight="Bold" Foreground="#FF9F5151" Click="retryButton_Click"/>
+        <Button x:Name="closeButton" HorizontalAlignment="Left" Margin="559,294,0,0" VerticalAlignment="Top" Height="50" Width="110" Background="#FFE0B4B4" Content="Sluiten" FontWeight="Bold" Foreground="#FF9F5151" Click="closeButton_Click"/>
+
+    </Grid>
+</Window>
